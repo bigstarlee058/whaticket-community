@@ -30,9 +30,9 @@
     "yup": "^0.32.8"
   },
   "scripts": {
-    "dev": "vite",
-    "start": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "start": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview"
   },
   "browserslist": {
